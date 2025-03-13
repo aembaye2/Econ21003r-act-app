@@ -24,7 +24,7 @@ const Act08Comp = () => {
   }
 
   const handlePasswordSubmit = () => {
-    if (password === "22022") {
+    if (password === "44556") {
       setIsAuthenticated(true)
     } else {
       alert("Incorrect password")

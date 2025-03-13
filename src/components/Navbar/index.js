@@ -5,10 +5,10 @@ import { Nav, NavLink, Bars, NavMenu } from "./NavbarElements"
 
 const Navbar = () => {
   const currentDate = new Date()
-  const startDate = new Date("2025-03-13T10:00:00")
+  const startDate = new Date("2025-03-13T13:00:00")
 
   //const act08DueDate = new Date("2025-03-12T12:20:00") // Set the due date for Homework 2 with hours and minutes
-  const DueDate = new Date("2025-03-13T12:20:00") // Set the due date for Homework 2 with hours and minutes
+  const DueDate = new Date("2025-03-13T15:15:00") // Set the due date for Homework 2 with hours and minutes
 
   return (
     <>
