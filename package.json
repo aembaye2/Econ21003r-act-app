@@ -2,7 +2,7 @@
   "name": "react-quiz-app",
   "version": "1.0",
   "private": true,
-  "homepage": "https://aembaye2.github.io/ActivityApp",
+  "homepage": "https://aembaye2.github.io/Econ21003r-act-app",
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
