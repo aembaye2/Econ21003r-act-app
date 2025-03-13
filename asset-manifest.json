@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ActivityApp/static/css/main.ea1bbd94.chunk.css",
+    "main.js": "/ActivityApp/static/js/main.89c1523c.chunk.js",
+    "main.js.map": "/ActivityApp/static/js/main.89c1523c.chunk.js.map",
+    "runtime-main.js": "/ActivityApp/static/js/runtime-main.6fbab58f.js",
+    "runtime-main.js.map": "/ActivityApp/static/js/runtime-main.6fbab58f.js.map",
+    "static/js/2.96cbd6fe.chunk.js": "/ActivityApp/static/js/2.96cbd6fe.chunk.js",
+    "static/js/2.96cbd6fe.chunk.js.map": "/ActivityApp/static/js/2.96cbd6fe.chunk.js.map",
+    "static/js/3.8d8a8e0e.chunk.js": "/ActivityApp/static/js/3.8d8a8e0e.chunk.js",
+    "static/js/3.8d8a8e0e.chunk.js.map": "/ActivityApp/static/js/3.8d8a8e0e.chunk.js.map",
+    "static/js/4.32cf9db9.chunk.js": "/ActivityApp/static/js/4.32cf9db9.chunk.js",
+    "static/js/4.32cf9db9.chunk.js.map": "/ActivityApp/static/js/4.32cf9db9.chunk.js.map",
+    "static/js/5.3d7ba1c6.chunk.js": "/ActivityApp/static/js/5.3d7ba1c6.chunk.js",
+    "static/js/5.3d7ba1c6.chunk.js.map": "/ActivityApp/static/js/5.3d7ba1c6.chunk.js.map",
+    "index.html": "/ActivityApp/index.html",
+    "precache-manifest.9db46e78b6c8f1e06aa5ecbdbe241aa3.js": "/ActivityApp/precache-manifest.9db46e78b6c8f1e06aa5ecbdbe241aa3.js",
+    "service-worker.js": "/ActivityApp/service-worker.js",
+    "static/css/main.ea1bbd94.chunk.css.map": "/ActivityApp/static/css/main.ea1bbd94.chunk.css.map",
+    "static/js/2.96cbd6fe.chunk.js.LICENSE.txt": "/ActivityApp/static/js/2.96cbd6fe.chunk.js.LICENSE.txt",
+    "static/js/3.8d8a8e0e.chunk.js.LICENSE.txt": "/ActivityApp/static/js/3.8d8a8e0e.chunk.js.LICENSE.txt",
+    "static/js/4.32cf9db9.chunk.js.LICENSE.txt": "/ActivityApp/static/js/4.32cf9db9.chunk.js.LICENSE.txt",
+    "static/js/5.3d7ba1c6.chunk.js.LICENSE.txt": "/ActivityApp/static/js/5.3d7ba1c6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6fbab58f.js",
+    "static/js/2.96cbd6fe.chunk.js",
+    "static/css/main.ea1bbd94.chunk.css",
+    "static/js/main.89c1523c.chunk.js"
+  ]
+}
