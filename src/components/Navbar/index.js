@@ -8,11 +8,10 @@ const Navbar = () => {
   const startDate = new Date("2025-03-14T08:00:00")
 
   //const act08DueDate = new Date("2025-03-12T12:20:00") // Set the due date for Homework 2 with hours and minutes
-  const DueDate = new Date("2025-03-14T23:59:00") // Set the due date for Homework 2 with hours and minutes
+  const DueDate = new Date("2025-03-20T23:59:00") // Set the due date for Homework 2 with hours and minutes
 
   const isAvailable =
     currentDate >= startDate && currentDate <= DueDate ? true : false
-  console.log("isAvailable", isAvailable)
 
   return (
     <>
