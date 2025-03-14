@@ -9,6 +9,7 @@ import Footer from "./components/Footer" // Import the Footer component
 import Act00Comp from "./pages/actCh00/actCh00"
 import Hw01Comp from "./pages/hw01/hw01"
 import Hw02Comp from "./pages/hw02/hw02"
+import Hw03Comp from "./pages/hw03/hw03"
 import Act04Comp from "./pages/actCh04/actCh04"
 import Act05Comp from "./pages/actCh05/actCh05"
 import Act06Comp from "./pages/actCh06/actCh06"
@@ -27,6 +28,7 @@ function App() {
             <Route path="/ActCh04" element={<Act04Comp />} />
             <Route path="/HW01" element={<Hw01Comp />} />
             <Route path="/HW02" element={<Hw02Comp />} />
+            <Route path="/HW03" element={<Hw03Comp />} />
             <Route path="/ActCh05" element={<Act05Comp />} />
             <Route path="/ActCh06" element={<Act06Comp />} />
             <Route path="/ActCh07" element={<ActCh07Comp />} />

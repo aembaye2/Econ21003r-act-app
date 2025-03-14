@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react"
-import { DrawingApp } from "ae-drawable-canvas"
 //import { handleJsonSave, handleGeneratePDF } from "./utils";
 import { handleGeneratePDF } from "./utils"
 //import { fabric } from "fabric";
 //import { useCanvasStore } from "./canvas/useCanvasStore"
 //import { saveAs } from "file-saver"
-import { modes } from "./modesfile"
+import { DrawingApp, modes } from "ae-drawable-canvas"
 
 interface QuizProps {
   questions: {
@@ -18,10 +17,6 @@ interface QuizProps {
   quizName: string
 }
 
-// const drawingObj_starter: any = modes.filter((modeObj: any) =>
-//   ["point"].includes(modeObj.mode)
-// )
-
 const QuestionsComponent = ({ questions, userId, quizName }: QuizProps) => {
   const [userAnswers, setUserAnswers] = useState<{
     [key: number]: string | number
@@ -30,9 +25,7 @@ const QuestionsComponent = ({ questions, userId, quizName }: QuizProps) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
   const [showResults, setShowResults] = useState(false)
   const [nextButtonClicked, setNextButtonClicked] = useState(false)
-  const [filteredModes, setFilteredModes] = useState(modes) //useState(modes)  //useState(drawingObj_starter)
-
-  console.log("filteredModes", filteredModes)
+  const [filteredModes, setFilteredModes] = useState(modes)
 
   useEffect(() => {
     const storedAnswers = localStorage.getItem("userAnswers")
@@ -99,7 +92,6 @@ const QuestionsComponent = ({ questions, userId, quizName }: QuizProps) => {
 
   useEffect(() => {
     if (questions[currentQuestionIndex].qtype === "graphing-quest") {
-      // Now you can use setFilteredModess to update the state
       var x: string[] = questions[currentQuestionIndex].options || []
       setFilteredModes(modes.filter((modeObj: any) => x.includes(modeObj.mode)))
     }
@@ -111,9 +103,6 @@ const QuestionsComponent = ({ questions, userId, quizName }: QuizProps) => {
 
     if (questions[currentQuestionIndex].qtype === "graphing-quest") {
       await saveCanvasImage2storage(currentQuestionIndex)
-      // // Now you can use setFilteredModess to update the state
-      // var x: string[] = questions[currentQuestionIndex].options || []
-      // setFilteredModes(modes.filter((modeObj: any) => x.includes(modeObj.mode)))
     }
 
     if (currentQuestionIndex === questions.length - 2) {
@@ -323,8 +312,8 @@ const QuestionsComponent = ({ questions, userId, quizName }: QuizProps) => {
                     <DrawingApp
                       index={currentQuestionIndex}
                       AssessName={quizName || ""}
-                      canvasWidth={500}
-                      canvasHeight={400}
+                      canvasWidth={600}
+                      canvasHeight={450}
                       nextButtonClicked={nextButtonClicked}
                       modes={filteredModes}
                     />

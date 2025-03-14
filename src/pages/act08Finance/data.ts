@@ -27,7 +27,7 @@ export const quiz = {
     {
       qtype: "one-line-text-quest",
       question:
-        "In the deal-or-no-deal show, Howie Mandel offers a contestant to walk out with $4 million (Plan A) or continue to play to win $10 million with probability of 0.2 and \$2.5 milion with probability of 0.8. Which plan has higher expected value? (Enter A or B)",
+        "In the deal-or-no-deal show, Howie Mandel offers a contestant to walk out with $4 million (Plan A) or continue to play to win $10 million with probability of 0.2 and $2.5 milion with probability of 0.8. Which plan has higher expected value? (Enter A or B)",
       Ref: "",
     },
     {
