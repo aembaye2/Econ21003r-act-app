@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a8798b4e56d7750091ba62398fe87c2",
+    "revision": "d0df38cc5177b1e2dcde7067b7f8bdef",
     "url": "/Econ21003r-act-app/index.html"
   },
   {
-    "revision": "c88312cb8bb58d847891",
+    "revision": "644928f9bfbb16a62961",
     "url": "/Econ21003r-act-app/static/css/main.ea1bbd94.chunk.css"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Econ21003r-act-app/static/js/5.86af963f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c88312cb8bb58d847891",
-    "url": "/Econ21003r-act-app/static/js/main.56062685.chunk.js"
+    "revision": "644928f9bfbb16a62961",
+    "url": "/Econ21003r-act-app/static/js/main.26eb98fb.chunk.js"
   },
   {
     "revision": "625ed64dd849782c97c4",
