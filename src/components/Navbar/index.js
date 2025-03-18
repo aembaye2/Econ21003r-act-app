@@ -5,10 +5,10 @@ import { Nav, NavLink, Bars, NavMenu } from "./NavbarElements"
 
 const Navbar = () => {
   const currentDate = new Date()
-  const startDate = new Date("2025-03-18T08:30:00")
+  const startDate = new Date("2025-03-18T14:30:00")
 
   //const act08DueDate = new Date("2025-03-12T12:20:00") // Set the due date for Homework 2 with hours and minutes
-  const DueDate = new Date("2025-03-18T12:20:00") // Set the due date for Homework 2 with hours and minutes
+  const DueDate = new Date("2025-03-18T15:20:00") // Set the due date for Homework 2 with hours and minutes
 
   const isAvailable =
     currentDate >= startDate && currentDate <= DueDate ? true : false
@@ -33,7 +33,8 @@ const Navbar = () => {
           {/* {currentDate >= startDate && currentDate <= act08DueDate && (
             <NavLink to="/ActCh08"> S&I-ClassA-ctivity</NavLink>
           )} */}
-          {isAvailable && <NavLink to="/Act08"> Activity-on-Finance</NavLink>}
+          {isAvailable && <NavLink to="/Act09"> Act on Unemployement</NavLink>}
+          {false && <NavLink to="/Act08"> Activity-on-Finance</NavLink>}
           {/* <NavLink to="/Hw01">Homework 1</NavLink> */}
           {/* {currentDate <= hw02DueDate && (
             <NavLink to="/Hw02">Homework 2</NavLink>
