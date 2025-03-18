@@ -38,7 +38,7 @@ const Navbar = () => {
           {/* {currentDate <= hw02DueDate && (
             <NavLink to="/Hw02">Homework 2</NavLink>
           )} */}
-          {/* {isAvailable && <NavLink to="/Hw03">Homework 3</NavLink>} */}
+          {true && <NavLink to="/Hw03">Homework 3</NavLink>}
         </NavMenu>
       </Nav>
     </>
