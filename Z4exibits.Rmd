@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 ## 
 
-The following equation which is the most important equation in growth economics as in many other fields like investment theory or business in general:  $$P_n= P_0(1 + g)^n$$ 
+The following equation, which is the most important equation in growth economics as in many other fields like investment theory or business in general, is related to compounding growth:  $$P_n= P_0(1 + g)^n$$ 
 where:
 
 $P_0$: The initial value of the variable at date 0 (e.g., today)
@@ -19,10 +19,10 @@ $P_n$: the value of the variable at future date $n$ years from now
 
 $g$: the annual growth rate of the variable in decimal (you use 0.02 instead of 2 for 2\% growth rate)
 
-$n$: the number of years between year  $0$ and $n$.
+$n$: the number of years between year $0$ and $n$.
 
 We can derive some important results from the above equation using some simple algebra:
-$$g =\left( \frac{P_n}{P_0} \right)^{n}-1 \approx \frac{log(P_n/P_0)}{n}$$
+$$g =\left( \frac{P_n}{P_0} \right)^{1/n}-1 \approx \frac{log(P_n/P_0)}{n}$$
 $$n= \frac{log(P_n/P_0)}{log(1+g)}$$
 $$P_0= \frac{P_N}{(1 + g)^n}$$ 
 
