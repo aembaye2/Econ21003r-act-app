@@ -3,13 +3,13 @@ export const quiz = {
     {
       qtype: "one-line-text-quest",
       question:
-        "B.  A bond pays $6,000 in 20 years when it matures, no payments in between (zero coupon bond). Similarly bond B pays also $6,000 but in 40 years. If the interest rate is 5%, what is the maximum an economist would pay for each? Enter your answer as two numbers separated by with semicolon. [Hint: You can actual answer the question without calculator by applying the rule of 70.]",
+        "A bond pays $6,000 in 20 years when it matures, no payments in between (zero coupon bond). Similarly bond B pays also $6,000 but in 40 years. If the interest rate is 3.5%, what is the maximum an economist would pay for each? Enter your answer as two numbers separated by semicolon. [Hint: The question can be answered without a calculator by applying the rule of 70.]",
       Ref: "",
     },
     {
       qtype: "one-line-text-quest",
       question:
-        "B.  Based on the information in the previous quesiton, if interest rate now increases to 7%, What would be each bond's price now? Enter your answer as two numbers separated by with semicolon. ",
+        "Based on the information in the previous quesiton, if interest rate now increases to 7%, What would be each bond's price now? Enter your answer as two numbers separated by with semicolon. ",
       Ref: "",
     },
     {
@@ -27,13 +27,13 @@ export const quiz = {
     {
       qtype: "one-line-text-quest",
       question:
-        "In the deal-or-no-deal show, Howie Mandel offers a contestant to walk out with $4 million (Plan A) or continue to play to win $10 million with probability of 0.2 and $2.5 milion with probability of 0.8. Which plan has higher expected value? (Enter A or B)",
+        "In the deal-or-no-deal show, Howie Mandel offers a contestant to walk out with $4 million (Plan A) or continue to play to win $10 million with probability of 0.2 and $2.5 milion with probability of 0.8. Which plan has higher expected value? (Enter A, B or same)",
       Ref: "",
     },
     {
       qtype: "one-line-text-quest",
       question:
-        "B. If the contestant's utility function is given by U= W^(0.5), Which plan would he/she choose? (Enter A or B)",
+        "If the contestant's utility function is given by U= W^(0.5), Which plan would he/she choose? (Enter A, B, or indifferent)",
       Ref: "",
     },
     // {
