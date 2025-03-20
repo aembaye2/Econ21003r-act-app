@@ -32,7 +32,7 @@ const Navbar = () => {
           {/* {currentDate >= startDate && currentDate <= act08DueDate && (
             <NavLink to="/ActCh08"> S&I-ClassA-ctivity</NavLink>
           )} */}
-          {isAvailable && <NavLink to="/Act09"> Act on Unemployement</NavLink>}
+          {true && <NavLink to="/Act09"> Act on Unemployement</NavLink>}
           {false && <NavLink to="/Act08"> Activity-on-Finance</NavLink>}
           {/* <NavLink to="/Hw01">Homework 1</NavLink> */}``
           {/* {currentDate <= hw02DueDate && (
